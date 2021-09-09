@@ -1,5 +1,5 @@
 # FinnLi.github.io
-My website
+Hi
 
 This is my website for practising HTML, JS, and React.
 Feel free to leave any comments.
