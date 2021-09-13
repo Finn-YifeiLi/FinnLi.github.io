@@ -75,6 +75,12 @@
                 <h1>Please Fill This in!</h1>
                 
                 <section id="info">
+
+                    <seciton class="intro">
+                        <label for="curse">You Can Type In Bad Words Here</label>
+                        <input type="password" id="intro">
+                    </seciton>
+
                     <section class="basicInfo">
                         <!--Get name : text-->
                         <label for="name">What's your name?</label>
@@ -144,7 +150,46 @@
                         <input id="other" type="checkbox" name="hobbies" value="other">
                         <label for="other">Other</label>
                         <br>
+
+                        <br>
+                        <br>
+
+                        <!--Major : Select-->
+                        <label for="major">What's your major?</label>
+                        <select id="major" name="major">
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Maths">Maths</option>
+                            <option value="Music">Musc</option>
+                            <option value="other">Other shit majors</option>
+                        </select>
+
+                        <br>
+                        <br>
+
+                        <!--FriendShip : List-->
+                        <p>Type your name</p>
+                        <label for="friend">If you're my friend, your name will pop up</label>
+                        <input id="friend" name="friend" list="myFriends">
+                        <datalist id="myFriends">
+                            <option value="Bevin">Bevin Zhang</option>
+                            <option value="LiSham">LiSham Li</option>
+                            <option value="Yuki">Yuki Yang</option>
+                        </datalist>
                     </section>
+
+                    <seciton class="outro">
+
+                        <br>
+                        <br>
+
+                        <!--Comment : TextArea-->
+                        <label for="comments">Leave your comments</label>
+                        <br>
+                        <textarea id="comments" rows="10" cols="40" name="comments">You're Perfect!</textarea>
+
+                        <!--Submit : Submit-->
+                        <input type="submit" value="submit">
+                    </seciton>
                 </section>
             </form>
         </div>
