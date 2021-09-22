@@ -1,0 +1,11 @@
+.navigation ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li{
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+}
