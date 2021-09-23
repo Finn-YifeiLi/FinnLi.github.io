@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+    </head>
+
+    <body>
+        <!--FORM This is my form FORM -->
+            <form>
+                <h1>Please Fill This in!</h1>
+                
+                    <!--Password-->
+                    <div class="curseInput">
+                        <label for="cursing">You Can Type In Bad Words Here</label>
+                        <input type="password" id="curse">
+                    </div>
+
+                    <!--Get name : text-->
+                    <div class="nameInput">
+                    <label for="name">What's your name?</label>
+                    <input type="text" id="name" name="name">
+                    </div>
+
+                    <!--Get Gender : Radio-->
+                    <div class="genderInput">
+                    <p>What's your gender?</p>
+                    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    </div>
+
+
+                    <!--Age : Number-->
+                    <div class="ageInput">
+                    <label for="age">What's your age?</label>
+                    <input id="age" name="age" type="number" step="1">
+                    </div>
+
+
+
+                    <!--Happiness : Range-->
+                    <div class="happinessInput">
+                    <label for="happiness">How Happy are you?</label>
+                    <br>
+                    <span>Sad</span>
+                    <input type="range" id="happiness" name="happiness" min="0" max="5" step="1">
+                    <span>Happy</span>
+                    </div>
+
+
+                    <!--Hobbies : CheckBox-->
+                    <div class="hobbiesInput">
+                    <p>Check your hobbies</p>
+                    <input id="sports" type="checkbox" name="hobbies" value="sports">
+                    <label for="sports">Sports</label>
+
+                    <input id="music" type="checkbox" name="hobbies" value="music">
+                    <label for="music">Music</label>
+
+                    <input id="watching" type="checkbox" name="hobbies" value="watching">
+                    <label for="watching">Watching TV / Movie / Anime / Variety Shows</label>
+
+                    <input id="dance" type="checkbox" name="hobbies" value="dance">
+                    <label for="dance">Dance</label>
+
+                    <input id="study" type="checkbox" name="hobbies" value="study">
+                    <label for="study">STUDYING (y'all should check this)</label>
+
+                    <input id="other" type="checkbox" name="hobbies" value="other">
+                    <label for="other">Other</label>
+                    </div>
+
+                    <!--Major : Select-->
+                    <div class="majorInput">
+                    <label for="major">What's your major?</label>
+                    <select id="major" name="major">
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Maths">Maths</option>
+                        <option value="Music">Musc</option>
+                        <option value="other">Other shit majors</option>
+                    </select>
+                    </div>
+
+                    <!--FriendShip : List-->
+                    <div class="friendInput">
+                    <span>Type your name. </span>
+                    <label for="friend">If you're my friend, your name will pop up</label>
+                    <input id="friend" name="friend" list="myFriends">
+                    <datalist id="myFriends">
+                        <option value="Bevin">Bevin Zhang</option>
+                        <option value="LiShan">LiShan Li</option>
+                        <option value="Yuki">Yuki Yang</option>
+                    </datalist>
+                    </div>
+
+                    <!--Comment : TextArea-->
+                    <div class="commentInput">
+                    <label for="comments">Leave your comments</label>
+                    <br>
+                    <textarea id="comments" rows="10" cols="40" name="comments" minlength="10">You're Perfect!</textarea>
+                    </div>
+
+                    
+                    <!--Submit : Submit-->
+                    <div class="submitInput">
+                    <input type="submit" value="submit">
+                    </div>
+            </form>
+    </body>
+
+
+</html>
